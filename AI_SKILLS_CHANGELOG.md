@@ -43,6 +43,26 @@
 
 ## 变更历史
 
+### 2026-02-19 新增推荐MCP
+
+**新增推荐MCP服务器 - FEATURE_ADD**
+
+新增以下推荐MCP服务器:
+- Sequential-Thinking: 结构化思考
+- Memory: 持久化记忆
+- Filesystem: 文件系统操作
+- Puppeteer: 网页自动化
+- Slack: 团队消息
+- Google-Calendar: 日程管理
+- PostgreSQL: 数据库操作
+- SQLite: 本地数据库
+- Docker: 容器管理
+
+同步状态:
+- [x] 本地记录
+- [x] GitHub 同步
+- [ ] 印象笔记同步
+
 ### 2026-02-19 初始化
 
 **系统初始化 - EVOLUTION**
