@@ -1,0 +1,55 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"],
+      "env": {
+        "DEFAULT_MINIMUM_TOKENS": "10000"
+      }
+    },
+    "Exa": {
+      "command": "npx",
+      "args": ["-y", "exa-mcp-server"],
+      "env": {
+        "EXA_API_KEY": "your-exa-api-key"
+      }
+    },
+    "GitHub": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your-github-token"
+      }
+    },
+    "Slack": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-slack"],
+      "env": {
+        "SLACK_BOT_TOKEN": "your-slack-token"
+      }
+    },
+    "Google-Calendar": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gcalendar"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "your-client-id",
+        "GOOGLE_CLIENT_SECRET": "your-client-secret"
+      }
+    },
+    "Memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {}
+    },
+    "Filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:\\work"],
+      "env": {}
+    },
+    "Sequential-Thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "env": {}
+    }
+  }
+}
